@@ -58,7 +58,7 @@ We provide a quick overview of the arguments:
 For structured N:M sparsity, set the argument `--sparsity_type` to "2:4" or "4:8". An illustrative command is provided below:
 ```sh
 python main.py \
-    --model decapoda-research/llama-7b-hf \
+    --model baffo32/decapoda-research-llama-7B-hf \
     --prune_method wanda \
     --sparsity_ratio 0.5 \
     --sparsity_type 2:4 \
